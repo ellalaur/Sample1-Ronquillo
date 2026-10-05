@@ -1,0 +1,314 @@
+# Sample1-Ronquillo
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q1 Project</title>
+
+	<style>
+		
+		header{
+			font-size: 40px;
+			text-align: center;
+			margin-top: 30px;
+		}
+
+		dt{
+			font-size: 35px;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+
+		li{
+			text-align: right;
+			margin-right: 10px;
+		}
+
+		p{
+			text-align: center;
+			margin-top: 20px;
+		}
+
+		h2{
+			text-align: center;
+		}
+
+		body{
+			background-color: white;
+		}
+
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		select{
+			width: 350px;
+			height: 40px;
+		}
+
+
+		.container{
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 10px;
+			margin-left: auto;
+			margin-right: auto;
+			justify-content: center;
+			align-items: center;
+		}
+
+
+		.songs_jpeg{
+
+			width: 500px;
+			height: 280px;
+			align-content: center;
+			justify-content: center;
+			align-self: center;
+			margin-top: 46px;
+			margin-bottom: 46px;
+			outline: 3px solid black;
+			float: left;
+		}
+
+		.movies_jpeg{
+
+			width: 500px;
+			height: 280px;
+			align-content: center;
+			justify-content: center;
+			align-self: center;
+			margin-top: 46px;
+			margin-bottom: 46px;
+			outline: 3px solid black;
+			float: left;
+		}
+
+
+		.pfp_jpeg{
+			width: 200px;
+			height: 200px;
+			align-content: center;
+			justify-content: center;
+			align-self: center;
+			margin-top: 46px;
+			margin-bottom: 46px;
+		}
+
+		.headercont{
+			background-color: #f7b5dd;
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+
+		.cont1{
+			background-color: #d182b1;
+			align-content: center;
+			display: flex;
+			flex-direction: column;
+			margin-left: auto;
+			margin-right: auto;
+			justify-content: center;
+			align-items: center;
+			padding: 5px;
+
+		}
+
+		.cont2{
+			background-color: #6a577d;
+			padding: 5px;
+			padding-top: 1px;
+			color: black;
+		}
+
+		.cont3{
+			background-color: #7e7bb5;
+			padding: 1px;
+			width: 560px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 20px;
+		}
+
+		.cont5{
+			background-color: #a4b3ed;
+			padding: 1px;
+			width: 500px;
+			margin-top: 20px;
+			display: grid;
+			justify-content: center;
+			align-items: center;
+		    margin-left: auto;
+			margin-right: auto;
+			place-items: center;
+		}
+
+		.center{
+			align-content: center;
+			margin-left: auto;
+			margin-right: auto;
+			justify-content: center;
+			align-self: center;
+			display: flex;
+			gap: 40px;
+		}
+
+		.img-with-text {
+           text-align: justify;
+           width: 500px;
+           margin-top: 20px;
+           margin-bottom: 20px;
+        }
+
+        .img-with-text img {
+           display: block;
+           margin: 0 auto;
+           margin-top: 20px;
+           margin-bottom: 20px;
+        }
+
+        .square{
+        	height: 580px;
+			width: 470px;
+			background-color: white;
+			border-radius: 30px;
+			padding-top: 20px;
+			padding-bottom: 3px;
+			padding-left: 16px;
+			padding-right: 16px;
+			align-self: center;
+			border-radius: 4%;
+			outline-style: solid;
+			outline-width: 5px;
+			outline-color: black;
+			margin-top: 50px;
+
+		}
+
+		.border{
+			border-top: 3px solid;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="headercont">
+	<ul>
+		<li>About Me | My Works | Contact Me</li>
+	</ul>
+	</div>
+
+	<div class="cont1">
+		<img class="pfp_jpeg" src="piggy.jpeg">
+	</div>
+
+	<div class="cont2">
+	<dl>
+		<dt>Hello, I'm Ella Ronquillo</dt>
+		<p>Aspiring Web Developer</p>
+	</dl>
+    </div>
+
+	<div class="cont3">
+	    <h2>About Me</h2>
+    </div>
+
+        <p>Hi! I am Ella, a student who likes to be creative. I really like drawing, sleeping, eating, my friends, and so much more.
+
+	<div class="cont3">
+	     <h2>My Works</h2>
+	</div>
+
+    <div class="center">
+	    <div class="img-with-text">
+	<img class="songs_jpeg" src="songs.jpeg">
+	    <a href="https://github.com/ellalaur/My-Favorite-Songs">Click this</a> to head over to my <b>Favorite Songs Website</b>
+
+	    <div class="img-with-text">
+	<img class="movies_jpeg" src="movies.jpeg">
+	    <a href="https://github.com/ellalaur/Rate-a-Movie">Click this</a> to head over to my <b>Rate a Movie Website</b>
+</div>
+
+<br>
+
+<hr class="border">
+
+<br>
+
+	<div class="cont5">
+	<h2>Contact Me</h2>
+	</div>
+
+	<div class="square">
+		
+		<form>
+			<label for="yname"> Your Name: </label>
+			<br>
+		<input type="text" id="yname" name="yname" placeholder="Please enter your Name" style="height: 40px; width: 460px;">
+		
+		<br>
+		<br>
+
+		<label for="email"> Your Email: </label>
+			<br>
+		<input type="text" id="email" name="email" placeholder="Please enter your email" style="height: 40px; width: 460px;">
+		<br>
+		<br>
+
+		<label for="how">How did you find me?</label>
+		<input type="radio" id="how1" name="how1" value="Facebook"><label for="how1"> Facebook </label>
+
+        <input type="radio" id="how2" name="how2" value="Google"><label for="how2"> Google </label>
+
+        <input type="radio" id="how3" name="how3" value="Friends"><label for="how3"> Friends </label>
+
+        <br>
+        <br>
+
+        <label for="interested">Interested In:</label>
+
+        <input type="checkbox" id="int1" name="int1" value="Web Design"><label for="int1"> Web Design </label>
+
+        <input type="checkbox" id="int2" name="int2" value="Graphic Design"><label for="int2"> Graphic Design </label>
+
+        <input type="checkbox" id="int3" name="int3" value="Coding"><label for="int3"> Coding </label>
+		</form>
+
+		<br>
+		<br>
+
+		<label for="rating"> Rate my Portfolio </label>
+		<br>
+	    <select id="section" name="grade">
+	    	<option value="- Select a rating -"> - Select a rating - </option>
+	    	<option value="Bad"> Bad </option>
+	    	<option value="Mid"> Mid </option>
+	    	<option value="Neutral"> Neutral </option>
+	    	<option value="Good"> Good </option>
+	    	<option value="Amazing"> Amazing </option>
+	    </select>
+
+	    <br>
+	    <br>
+	    <br>
+
+	    <label for="feedback"> Any Feedback?</label>
+	    <br>
+	    <textarea id="feedback" name="feedback" rows="4" cols=56 placeholder="Write your feedback..." style="text-align: center; padding-top: 50px;"></textarea>
+
+	    <br>
+	    <br>
+
+	    <input type="submit" value="Submit" style="width: 470px; height: 50px;">
+
+	</div>
+
+
+</body>
+</html>
